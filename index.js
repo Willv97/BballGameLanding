@@ -14,3 +14,12 @@ document.addEventListener('DOMContentLoaded', function () {
         feedbackTextarea.value = '';
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const joinForumButton = document.querySelector('.cta-button');
+
+    joinForumButton.addEventListener('click', function () {
+        // Add logic to navigate to the forum section or open a new window with the forum URL
+        alert('Redirect to the forum or open a new window with the forum URL.');
+    });
+});
