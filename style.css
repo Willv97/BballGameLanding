@@ -88,3 +88,41 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Additional styles for the updated Player Archetypes section */
+.archetypes-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.archetype {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+
+.archetype i {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #3498db; /* Blue color, you can change this */
+}
+
+.archetype:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+
+
