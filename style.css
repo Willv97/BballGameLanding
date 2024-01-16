@@ -124,5 +124,67 @@ p {
     color: #666;
 }
 
+/* Additional styles for the updated Game Modes section with icons and enhanced interactivity */
+.modes-list li {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 0px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: left;
+}
 
+.modes-list li i {
+    margin-right: 15px;
+    font-size: 1.2em;
+}
+
+.modes-list li:hover {
+    background-color: #3498db; /* Blue color on hover, you can change this */
+    color: white;
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Additional styles for the updated Game Modes section with expandable descriptions */
+.mode-header {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.mode-header i {
+    margin-right: 15px;
+    font-size: 1.2em;
+}
+
+.mode-description {
+    display: none;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mode-header:hover {
+    background-color: #3498db; /* Blue color on hover, you can change this */
+    color: white;
+}
+
+.mode-header.active {
+    background-color: #3498db; /* Active state background color */
+    color: white;
+}
+
+.mode-header.active + .mode-description {
+    display: block;
+}
 
