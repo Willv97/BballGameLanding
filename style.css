@@ -183,3 +183,52 @@ li {
 .mode-header.active + .mode-description {
     display: block;
 }
+
+/* CSS for Hero Section */
+#hero {
+    position: relative;
+    height: 70vh; /* Adjust the height as needed */
+    background: url('kid_hooper.png') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2.5em; /* Adjust the font size as needed */
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1em; /* Adjust the font size as needed */
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 8px 15px; /* Adjust the padding as needed */
+    font-size: 1em; /* Adjust the font size as needed */
+    background-color: #ff4d4d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e63c3c;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 10px; /* Adjust the bottom spacing as needed */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
