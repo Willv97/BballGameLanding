@@ -232,3 +232,11 @@ p {
     transform: translateX(-50%);
 }
 
+.animated-menu li a {
+    transition: color 0.3s ease;
+  }
+  
+  .animated-menu li a:hover {
+    color: red;
+  }
+  
