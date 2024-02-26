@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: rgb(154, 169, 184);
 }
 
 header {
@@ -49,19 +49,20 @@ button {
 /* Add or modify styles as needed */
 
 #community {
-    background-color: #fff;
+    background-color: #1a0101;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    color: yellow;
 }
 
 #community h2 {
-    color: #333;
+    color: yellow;
 }
 
 #community p {
-    color: #666;
+    color: yellow;
 }
 
 .cta-button {
@@ -79,16 +80,6 @@ button {
     background-color: #555;
 }
 
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
 /* Additional styles for the updated Player Archetypes section */
 .archetypes-list {
     display: grid;
@@ -108,7 +99,7 @@ footer {
 .archetype i {
     font-size: 2em;
     margin-bottom: 10px;
-    color: #3498db; /* Blue color, you can change this */
+    color: #d01a1a; /* Blue color, you can change this */
 }
 
 .archetype:hover {
@@ -122,7 +113,9 @@ h3 {
 }
 
 p {
-    color: #3667db;
+    color: #ed6a12;
+    font-size: 1.1em; /* Adjust the font size as needed */
+    margin-bottom: 20px;
 }
 
 /* Additional styles for the updated Game Modes section with icons and enhanced interactivity */
@@ -176,7 +169,7 @@ li {
 }
 
 .mode-header.active {
-    background-color: #3498db; /* Active state background color */
+    background-color: #db34a3; /* Active state background color */
     color: white;
 }
 
@@ -203,11 +196,7 @@ li {
 h1 {
     font-size: 2.5em; /* Adjust the font size as needed */
     margin-bottom: 15px;
-}
-
-p {
-    font-size: 1.1em; /* Adjust the font size as needed */
-    margin-bottom: 20px;
+    color: moccasin;
 }
 
 .cta-button {
@@ -238,5 +227,15 @@ p {
   
   .animated-menu li a:hover {
     color: red;
+    box-shadow: lawngreen;
   }
-  
+ 
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

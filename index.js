@@ -52,6 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <p>${modeData.description}</p>
             </div>
         `;
+        
 
         modesList.appendChild(listItem);
 
